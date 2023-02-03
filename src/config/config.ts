@@ -7,7 +7,7 @@ config({
 
 export class Config {
 	constructor() {
-		throw new Error('This is an onyl static class.');
+		throw new Error('This is an static class.');
 	}
 	static readonly port: number = this.parseInt(this.getFromEnv('PORT'));
 	static readonly nodeEnv: string = this.parseString(

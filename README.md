@@ -4,7 +4,7 @@ In the cloned folder, run the follwing commands:
 
 `npm install`
 
-`touch ./src/config/.env`
+`touch ./.env`
 
 In the `.env` file create the following envs:
 

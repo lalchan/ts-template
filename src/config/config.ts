@@ -13,9 +13,6 @@ export class Config {
 	static readonly nodeEnv: string = this.parseString(
 		this.getFromEnv('NODE_ENV'),
 	);
-	static readonly mongoUrl: string = this.parseString(
-		this.getFromEnv('MONGO_URL'),
-	);
 
 	private static getFromEnv(key: string) {
 		return process.env[key];
